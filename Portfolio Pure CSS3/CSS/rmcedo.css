@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap');
+
+.grid-template {
+
+    grid-template-areas:
+
+        "header header header header header header header header header header header header"
+        "content content content content content content content content content content content content"
+        "content footer footer footer footer footer footer footer footer footer footer footer";
+
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.header {
+
+    grid-area: header;
+    padding: 4px;
+
+}
+
+.content {
+
+    grid-area: content;
+
+
+}
+
+
+
+.footer {
+    grid-area: footer;
+
+}
+
+footer::after {
+    font-size: xx-small;
+
+    content: "© Copyright 2022 rmcedo.github.io - Todos os direitos reservados";
+
+}
+
+
+
+.item {}

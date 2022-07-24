@@ -1,0 +1,6 @@
+Paleta de Cores:
+
+Site Background
+
+#344f58
+#5f8aa1

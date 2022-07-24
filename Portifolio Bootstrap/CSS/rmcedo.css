@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Orienta&family=Questrial&display=swap');
+
+
+.maven {
+
+  font-family: 'Maven Pro', sans-serif;
+}
+
+
+
+.questrial {
+  font-size: 60px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.orienta {
+
+  font-family: 'Orienta', sans-serif;
+}
+
+.fundo {
+
+  background: rgb(52, 79, 88);
+  background: linear-gradient(38deg, rgba(52, 79, 88, 1) 0%, rgba(95, 138, 161, 1) 100%);
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-size: auto;
+}
+
+.tracking-in-expand {
+  animation: tracking-in-expand 1.0s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+
+
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -.5em;
+    opacity: 0
+  }
+
+  40% {
+    opacity: .6
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+.wobble-hor-bottom {
+  animation: wobble-hor-bottom 6s infinite ease-out
+}
+
+
+@keyframes wobble-hor-bottom {
+
+  0%,
+  100% {
+    transform: translateX(0);
+    transform-origin: 50% 50%
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(-6deg)
+  }
+
+  30% {
+    transform: translateX(15px) rotate(6deg)
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg)
+  }
+
+  60% {
+    transform: translateX(9px) rotate(2.4deg)
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg)
+  }
+}
