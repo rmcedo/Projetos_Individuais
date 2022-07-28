@@ -11,12 +11,16 @@
 .questrial {
   font-size: 60px;
   font-family: 'Questrial', sans-serif;
+
 }
 
 .orienta {
 
   font-family: 'Orienta', sans-serif;
+
+
 }
+
 
 .fundo {
 
@@ -27,6 +31,15 @@
   height: 100vh;
   color: white;
   background-size: auto;
+}
+
+.foto{
+  border: 2px solid lightgrey;
+  border-radius: 50%;
+  width: 450px;
+  img-
+
+
 }
 
 .tracking-in-expand {
