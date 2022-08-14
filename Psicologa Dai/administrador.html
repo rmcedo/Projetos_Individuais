@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="fundo container-sm-fluid w-100 h-100">
+<body class="fundo container-fluid w-100 h-100">
 
     <header class="mb-auto">
 
@@ -21,20 +21,160 @@
                 <img src="/Mídias/logo.png" class="logo float-start">
                 <h1 class="fonte1 float-start">Psicóloga Daiane Maders</h1>
                 <nav class="maven nav nav-masthead float-end">
-                    <a class="fonte mt-3 nav-link py-1 px-0 active me-3" style="color:mediumblue"
-                        aria-current="page" href="/contato.html">Fale Conosco</a>
-                    <a class="fonte mt-3 me-3 nav-link py-1 px-0" style="color:mediumblue"
-                        href="/administrador.html">
+
+                    <a class="fonte mt-3 nav-link py-1 px-0 m-3 " style="color:mediumblue" href="/index.html">Página
+                        Inicial</a>
+                    <a class="fonte mt-3 nav-link py-1 px-0 active me-3" style="color:mediumblue" aria-current="page"
+                        href="/contato.html">Fale Conosco</a>
+                    <a class="fonte mt-3 me-3 nav-link py-1 px-0" style="color:mediumblue" href="/administrador.html">
                         Area Psicólogo</a>
-                    <a class="fonte mt-3 nav-link py-1 px-0" style="color:mediumblue"
-                        href="/login.html">Area Paciente</a>
-                        
+                    <a class="fonte mt-3 nav-link py-1 px-0" style="color:mediumblue" href="/login.html">Area
+                        Paciente</a>
+
+
                 </nav>
 
 
             </div>
         </div>
     </header>
+
+    <aside class="row pt-3">
+        <div class="col-6">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h1 class="p3"> Dados</h1>
+                </div>
+                <form>
+                    <div class="card-body p4">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" class="form-control" required>
+
+                        <label for="dataNascimento">Data de Nascimento</label>
+                        <input type="text" id="dataNascimennto" class="form-control" required>
+                        <label for="idade">Idade</label>
+                        <input type="number" id="idade" class="form-control" required>
+
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" class="form-control">
+
+                        <label for="cidade">Cidade</label>
+                        <input type="text" id="cidade" class="form-control" required>
+
+                        <label for="bairro">Bairro</label>
+                        <input type="text" id="bairro" class="form-control" required>
+
+                        <label for="rua">Rua</label>
+                        <input type="text" id="rua" class="form-control" required>
+
+                        <label for="num">Número</label>
+                        <input type="number" id="num" class="form-control" required>
+
+                        <label for="complemento">Complemento</label>
+                        <input type="text" id="complemento" class="form-control">
+
+                        <label for="ocupacao">Ocupação</label>
+                        <input type="text" id="ocupacao" class="form-control" required>
+
+                        <label for="telefoneContato">Celular</label>
+                        <input type="text" id="telefoneContato" class="form-control" required>
+
+                        <label for="telefoneEmergencia">Telefone p/ Emergência</label>
+                        <input type="text" id="telefoneEmergencia" class="form-control" required>
+
+                        <label for="moradia">Mora com alguém?</label>
+                        <input type="text" id="moradia" class="form-control">
+                    </div>
+                    <div class="card-footer text-center">
+                        <button type="submit" class=" btn btn-outline-primary">Salvar</button>
+                        <button type="reset" class=" btn btn-outline-danger">Limpar</button>
+                    </div>
+            </div>
+        </div>
+
+
+        </form>
+        </div>
+
+        </div>
+        <section class="col-6">
+            <div class="card">
+                <div class="card-header">
+                    <h1 class="text-center p3">Informações</h1>
+                </div>
+                <div class="card-body p4 ">
+                    <form>
+                        <label for="terapia">Realiza ou já realizou terapia?</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioSim"
+                                value="optionSim">
+                            <label class="form-check-label" for="inlineRadioSim">Sim</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioNao"
+                                value="optionNao">
+                            <label class="form-check-label" for="inlineRadioNao">Não</label>
+
+                        </div>
+                        <br> <label for="exampleFormControlTextarea1" class="form-label">Se sim, qual medicação?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                            placeholder="Informe quais medicações e dose utilizada" rows="1"></textarea>
+                        <br>
+                        <label for="duracaoTratamento">Caso realize um tratamento psiquiátrico, qual a duração?</label>
+                        <input type="text" id="telefoneEmergencia" class="form-control"
+                            placeholder="Duração do tratamento em meses"><br>
+
+                        <label for="terapia">Possui histórico familiar de tratamento ou doença psiquiátrica?</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioSim"
+                                value="optionSim">
+                            <label class="form-check-label" for="inlineRadioSim">Sim</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioNao"
+                                value="optionNao">
+                            <label class="form-check-label" for="inlineRadioNao">Não</label>
+
+                        </div>
+                        <br> <label for="exampleFormControlTextarea1" class="form-label">Se sim, qual o
+                            parentesco?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        <br>
+                        <label for="terapia">Realiza ou já realizou alguma forma de Terapia?</label><br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioSim"
+                                value="optionSim">
+                            <label class="form-check-label" for="inlineRadioSim">Sim</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioNao"
+                                value="optionNao">
+                            <label class="form-check-label" for="inlineRadioNao">Não</label>
+                        </div>
+                        <br>
+                        <hr> <label for="textareaObservacoesPaciente" class="form-label">Observações adicionais sobre o
+                            paciente:</label>
+                        <textarea class="form-control" id="observacoesPaciente" rows="1"></textarea>
+                        <br>
+
+
+                </div>
+                <div class="card-footer text-center">
+                    <button type="submit" class=" btn btn-outline-primary">Salvar</button>
+                    <button type="reset" class=" btn btn-outline-danger">Limpar</button>
+                </div>
+
+                </form>
+
+            </div>
+
+        </section>
+    </aside>
+
+
+
+
+
 
     <h1 id="paciente" class="text-center"></h1>
 
@@ -43,6 +183,9 @@
         crossorigin='anonymous'></script>
     <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
     <script src='/JS/crud.js' type="module"></script>
+
+
+
 </body>
 
 </html>
