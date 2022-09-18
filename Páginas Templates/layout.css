@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter:wght@200;300&family=Maven+Pro&family=Orienta&family=Press+Start+2P&family=Questrial&display=swap');
+
+
+.fonte {
+    font-family: 'Comfortaa', cursive;
+}
+
+.fonte1 {
+    font-family: 'Inter', sans-serif;
+}
+
+.fonte2 {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.fonte3 {
+    font-family: 'Orienta', sans-serif;
+}
+
+.fonte4 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.fonte5 {
+    font-family: 'Questrial', sans-serif;
+}
+
+
+.container {
+
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fundo {
+
+    background: rgb(11, 138, 56);
+    background: linear-gradient(0deg, rgba(11, 138, 56, 1) 0%, rgba(138, 177, 0, 1) 100%);
+}
+
+.puff-in-center {
+    -webkit-animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+.puff-in-center2 {
+    -webkit-animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: puff-in-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@-webkit-keyframes puff-in-center {
+    0% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes puff-in-center {
+    0% {
+        -webkit-transform: scale(2);
+        transform: scale(2);
+        -webkit-filter: blur(4px);
+        filter: blur(4px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
